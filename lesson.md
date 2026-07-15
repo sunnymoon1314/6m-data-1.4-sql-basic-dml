@@ -233,6 +233,8 @@ Summarise datasets using aggregate functions and use the `HAVING` clause to filt
 
 ### Concept Overview
 
+So far every query returned one row per flat. But questions like "what's the average price in each town?" aren't about individual flats — they're about whole towns. Aggregation is like emptying a drawer of receipts onto the table and reading out a single total. `GROUP BY town` first sorts the receipts into one pile per town, then reads out one total per pile. The catch: once you've grouped, the individual receipts are gone — you can only see the piles.
+
 **Aggregate Functions:**
 
 | Function | Description |
