@@ -45,7 +45,7 @@ Open DbGate and create a new connection to `db/unit-1-4.db`.
 >
 > | Column Name | Data Type | Description |
 > |-------------|-----------|-------------|
-> | month | Text "YYYY-MM" | Transaction month |
+> | month | Text (Month) "YYYY-MM" | Transaction month |
 > | town | Text | Town name |
 > | flat_type | Text | Type of flat |
 > | block | Text | Block number |
@@ -53,7 +53,7 @@ Open DbGate and create a new connection to `db/unit-1-4.db`.
 > | storey_range | Text | Storey range |
 > | floor_area_sqm | Numeric | Floor area in sqm |
 > | flat_model | Text | Flat model |
-> | lease_commence_date | Datetime (Year) | Year lease commenced |
+> | lease_commence_date | Text (Year) | Year lease commenced |
 > | remaining_lease | Text | Remaining lease |
 > | resale_price | Numeric ($) | Resale transaction price |
 
